@@ -21,7 +21,7 @@ jobs:
 #      - name: Install dependencies
 #        run: npm install
 
-# my-app  это название докер образа на докер хаб
+# my-app  это название докер образа на докер хаб.
       - name: Build Docker image
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/my-app:latest .
 
